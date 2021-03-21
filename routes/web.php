@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'General\PagesController@index');
+Auth::routes();
+
+Route::get('/', 'General\PagesController@index')->middleware('auth');
+Route::get('/about', 'General\PagesController@about')->name('about');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

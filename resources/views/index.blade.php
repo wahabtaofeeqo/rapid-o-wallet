@@ -19,7 +19,7 @@
 						<div class="get-quote-header">
 							<h4>Get a Free Quote</h4>
 						</div>
-						<form id="contactForm" method="post" class="signupform">
+						<form id="contactForm" method="POST" class="signupform" action="/api/contact">
 							<input type="text" class="form-control" name="quote-name" id="quote-name" placeholder="Name" required>
 							<input type="email" class="form-control" name="quote-email" id="quote-email" placeholder="Email">
 							<textarea class="form-control" name="quote-text" id="quote-text" placeholder="Request"></textarea>

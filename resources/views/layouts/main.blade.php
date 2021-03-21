@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Crypto Website</title>
+	<title>Rapidowallet</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!--IE Compatibility Meta-->
@@ -16,7 +16,6 @@
 
 	<!-- Stylesheets
 	    ============================================= -->
-	<link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('main/css/external.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('main/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('main/css/style.css')}}">
@@ -31,10 +30,6 @@
 	      <script src="assets/js/html5shiv.js"></script>
 	      <script src="assets/js/respond.min.js"></script>
 	    <![endif]-->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Cryptech | Bitcoin And Crypto Currency Html5 Template</title> 
 
 </head>
 <body>
@@ -106,7 +101,7 @@
 								data-splitout="none" 
 								data-responsive_offset="on">
 								<div class="slide-action">
-									<a class="btn btn--gradient btn--rounded mr-30" href="#">Get in Touch</a>
+									<a class="btn btn--gradient btn--rounded mr-30" href="#contactUs">Get in Touch</a>
 									<a class="btn btn--white btn--bordered btn--rounded d-none" href="#">Services</a>
 		 						</div>				
 						    </div>
@@ -420,6 +415,7 @@
 		<div id="back-to-top" class="backtop"><i class="fa fa-long-arrow-up"></i></div>
 	</div>
 
+	<script src="{{asset('js/app.js')}}"></script>
 	<script src="{{asset('main/js/jquery-2.2.4.min.js')}}"></script>
 	<script src="{{asset('main/js/plugins.js')}}"></script>
 	<script src="{{asset('main/js/functions.js')}}"></script>
@@ -440,6 +436,7 @@
 	<script src="https://unpkg.com/@popperjs/core@2"></script>
 	<script src="https://unpkg.com/tippy.js@6"></script>
 
+	<script src="{{asset('main/js/loader.js')}}"></script>
 	<script src="{{asset('main/js/main.js')}}"></script>
 </body>
 </html>
