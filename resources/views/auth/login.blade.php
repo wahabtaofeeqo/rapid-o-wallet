@@ -6,7 +6,7 @@
         <div class="col-md-5 col-lg-4">
 
             <div class="logo text-center mb-5">
-                <img src="{{asset('main/logo/logo-light.png')}}">
+                <img class="logo-light" src="{{asset('main/logo/logo.jpeg')}}" alt="Enrmous Logo" style="width: 200px;">
             </div>
 
             <div>

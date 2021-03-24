@@ -9,9 +9,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="logo" href="index.html">
-					<img class="logo-light" src="{{asset('main/logo/logo-light.png')}}" alt="Enrmous Logo">
-					<img class="logo-dark" src="{{asset('main/logo/logo-dark.png')}}" alt="Enrmous Logo">
+				<a class="logo" href="/">
+					<!-- <img class="logo-light" src="{{asset('main/logo/logo-light.png')}}" alt="Enrmous Logo">
+					<img class="logo-dark" src="{{asset('main/logo/logo-dark.png')}}" alt="Enrmous Logo"> -->
+					<img class="logo-light" src="{{asset('main/logo/logo.jpeg')}}" alt="Enrmous Logo" style="width: 200px;">
 				</a>
 			</div>
 			

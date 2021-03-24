@@ -302,7 +302,8 @@
 					<div class="row clearfix">
 						<div class="col-xs-12 col-sm-4 col-md-3 footer--widget widget-about">
 							<div class="widget-content">
-								<img class="footer-logo" src="{{asset('main/logo/logo-light.png')}}" alt="logo">
+								<!-- <img class="footer-logo" src="{{asset('main/logo/logo-light.png')}}" alt="logo"> -->
+								<img class="footer-logo" src="{{asset('main/logo/logo.jpeg')}}" alt="Logo" style="width: 200px;">
 								<p>Exchange Cryptocurrency at the Best Rate by getting the best offer from all the exchanges at one place.</p>
 								<div class="copyright" style="display: none;">
 									<a target="_blank" href="https://templateshub.net">Templates Hub</a>
@@ -348,10 +349,9 @@
 							</div>
 							<div class="widget-content">
 								<ul>
-									<li><a href="#">Buy Bitcoin</a></li>
-									<li><a href="#">Buy Bitcoin Cash</a></li>
-									<li><a href="#">Buy Ethereum</a></li>
-									<li><a href="#">Buy Litecoin</a></li>
+									<li><a href="http://www.google.com/search?q=bitcon">Bitcoin</a></li>
+									<li><a href="http://www.google.com/search?q=ethereum">Ethereum</a></li>
+									<li><a href="http://www.google.com/search?q=litecoin">Buy Litecoin</a></li>
 									<li class="d-none"><a href="#">Status</a></li>
 								</ul>
 							</div>
@@ -397,12 +397,6 @@
 					<div class="row">
 		                <div class="col-xs-12 col-sm-12 col-md-12 text--center footer--copyright">
 		                    <div class="payment--methods text--center">
-		                        <!-- <a href="#" title="Visa"><img src="assets/images/footer/visa.png" alt="Visa"></a>
-		                        <a href="#" title="Mastercard"><img src="assets/images/footer/mastercard.png" alt="Mastercard"></a>
-		                        <a href="#" title="amex"> <img src="assets/images/footer/amex.png" alt="amex"></a>
-		                        <a href="#" title="Delta"><img src="assets/images/footer/delta.png" alt="Delta"> </a>
-		                        <a href="#" title="Cirrus"><img src="assets/images/footer/cirrus.png" alt="Cirrus"></a>
-		                        <a href="#" title="Paypal"><img src="assets/images/footer/paypal.png" alt="Paypal"></a> -->
 		                        <p style="margin-bottom: 0;">Alrigt Reserved copyright &copy; @php echo date('Y') @endphp</p>
 		                    </div>
 		                </div>

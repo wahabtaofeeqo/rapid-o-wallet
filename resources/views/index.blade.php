@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+
 	<section id="clients1" class="clients clients-1 get-quote">
 		<div class="container" id="contactUs">
 			<div class="row clearfix">
@@ -17,12 +18,12 @@
 				<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1">
 					<div class="get-quote-container">
 						<div class="get-quote-header">
-							<h4>Get a Free Quote</h4>
+							<h4>Contact Rapidowallet</h4>
 						</div>
-						<form id="contactForm" method="POST" class="signupform" action="/api/contact">
-							<input type="text" class="form-control" name="quote-name" id="quote-name" placeholder="Name" required>
-							<input type="email" class="form-control" name="quote-email" id="quote-email" placeholder="Email">
-							<textarea class="form-control" name="quote-text" id="quote-text" placeholder="Request"></textarea>
+						<form id="contactFom" method="POST" class="signupform" action="/api/contact">
+							<input type="text" class="form-control" name="name" id="quote-name" placeholder="Name" required>
+							<input type="email" class="form-control" name="email" id="quote-email" placeholder="Email" required>
+							<textarea class="form-control" name="message" id="quote-text" placeholder="Request" required></textarea>
 							 <input type="submit" value="Submit Request" name="submit" class="btn btn--secondary btn--block btn--inverse">
 						</form>
 						<!-- form end -->
